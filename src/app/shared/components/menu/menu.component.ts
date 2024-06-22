@@ -13,28 +13,28 @@ export class MenuComponent {
     this.menuItems = [
       {
         label: 'Pipes de angular',
-        icon: 'pi pi-desktop',
+        icon: 'fas fa-code',
         items: [
           {
             label: 'Textos y Fechas',
-            icon: 'pi pi-align-left',
+            icon: 'fas fa-calendar',
             routerLink: '/'
           },
           {
             label: 'Números',
-            icon: 'pi pi-dollar',
+            icon: 'fas fa-hashtag',
             routerLink: 'numbers'
           },
           {
             label: 'No comunes',
-            icon: 'pi pi-globe',
+            icon: 'fas fa-dice',
             routerLink: 'uncommon'
           }
         ]
       },
       {
         label: 'Pipes personalizados',
-        icon: 'pi pi-cog',
+        icon: 'fas fa-exchange-alt',
         items: [
           {
             label: 'Otro elemento',
